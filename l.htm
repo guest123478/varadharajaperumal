@@ -219,29 +219,20 @@ html {
       }, 1000); 
     </script>
   </body>
+<!DOCTYPE html>
+<html>
 <body>
 
-<video id="myVideo" width="320" height="240" controls autoplay>
+<video width="320" height="240" autoplay>
   <source src="wt.mp4" type="video/mp4">
   <source src="wt.ogg" type="video/ogg">
   Your browser does not support the video tag.
 </video>
 
-<p>Click the button to find out if the movie automatically started to play as soon as it was ready.</p>
-
-<button onclick="myFunction()">Try it</button>
-
-<p id="demo"></p>
-
-<script>
-function myFunction() {
-  var x = document.getElementById("myVideo").autoplay;
-  document.getElementById("demo").innerHTML = x;
-}
-</script>
+<p><b>Note:</b> The autoplay attribute does not work on some mobile devices.</p>
 
 </body>
-
+</html>
 <div class="navbar">
 <footer class="w3-center w3-black w3-padding-16">
   <p>Copyrights@2020<a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green"></a></p>
