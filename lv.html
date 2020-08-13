@@ -219,13 +219,46 @@ html {
       }, 1000); 
     </script>
   </body>
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+#main {
+  width: 70px;
+  height: 300px;
+  border: 1px solid #c3c3c3;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+#main div {
+  width: 70px;
+  height: 70px;
+}
+</style>
+</head>
 <body>
 
-<video id="myVideo" width="320" height="240" controls autoplay>
+<h1><video id="myVideo" width="850" height="440" controls autoplay>
   <source src="wt.mp4" type="video/mp4">
   <source src="wt.ogg" type="video/ogg">
   Your browser does not support the video tag.
 </video>
+</h1>
+
+<div id="main">
+  <div style="background-color:coral;"></div>
+  <div style="background-color:lightblue;"></div>
+  <div style="background-color:pink;"></div>
+</div>
+
+<p><b>Note:</b> Internet Explorer 10 and earlier versions do not support the align-content property.</p>
+
+</body>
+</html>
+
+
 
 <p>Click the button to find out if the movie automatically started to play as soon as it was ready.</p>
 
