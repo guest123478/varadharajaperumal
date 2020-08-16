@@ -377,6 +377,19 @@ img {vertical-align: relative;}
   background-color: #717171;
 }
 
+	#main {
+  width: 70px;
+  height: 300px;
+  border: 1px solid #c3c3c3;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+#main div {
+  width: 100px;
+  height: 100px;
+}
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
@@ -403,7 +416,7 @@ img {vertical-align: relative;}
 </head>
 <body>
 
-<div class="slideshow-container">
+<h1><div class="slideshow-container">
 
 <div class="mySlides fade">
   <div class="numbertext">1 / </div>
@@ -476,7 +489,8 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
-</script>
+	</script>
+	</h1>
 
 
 
@@ -493,7 +507,19 @@ function showSlides(n) {
   width: 33.33%;
   padding: 5px;
 }
+#main {
+  width: 70px;
+  height: 300px;
+  border: 1px solid #c3c3c3;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
 
+#main div {
+  width: 100px;
+  height: 100px;
+}
 /* Clearfix (clear floats) */
 .row::after {
   content: "";
@@ -506,7 +532,7 @@ function showSlides(n) {
 
 <h1 style="text-align:center">Thamirabharani Mahapushkaram 2018</h1>
 
-<div class="row">
+<h1><div class="row">
   <div class="column">
     <img src="s31.jpeg" style="width:250px;height:300px;" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
 </div>
@@ -612,7 +638,7 @@ function showSlides(n) {
 </div>
 
 </body>
-
+	</h1>
 `
 
 <!-- Footer -->
